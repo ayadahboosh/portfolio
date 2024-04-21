@@ -64,22 +64,17 @@ html{
 
 
 
-  @media only screen and (max-width: 600px) {
-    .navbar {
-        
-}
-}
   
   #logo{
       width: 70px;
-      margin-left: 20px;
+      margin-left: 150px;
    
   }
 
   @media only screen and (max-width: 600px) {
     #logo {
-        width: 30px; 
-        /* margin-right: 15px;  */
+        width: 20px; 
+        margin-left: 15px; 
     }
 }
 
@@ -135,7 +130,7 @@ html{
       flex-direction: column;
     }
     .navbar.responsive{
-      padding: 20px;
+      padding: 40px;
     }
   
 }
@@ -160,20 +155,30 @@ html{
  height: 100vh;
  width: 100vw;
  overflow: hidden;
+ 
 }
-.me{
-  /* margin-top: -20%; */
+.uk-about{
+  
   font-size: x-large;
-  /* margin-left: 10%; */
-  width: 90%;
+  width: 60%;
+  padding-inline: 2px;
+  padding-right: 40px;
+  
+  
 }
   #about img{
       display: block;
-      width: 30%;
+      width: 25%;
       height: auto;
-      padding-top: 30px;
-      padding-left: 70px;
+      padding-top: 50px;
+      padding-left: 80px;
   }
+
+  
+.uk-about h2{ 
+   padding-bottom: 10px;
+  border-bottom: solid black 3px;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -186,15 +191,20 @@ html{
     width: 100vw;
 }
 
-.me {
-    margin-top: 0;
-    margin-left:0 ; 
+.uk-about{
+    
     text-align: center; 
     font-size: smaller;
+    width: 80%;
+    padding-inline: 15px;
+    padding-block: 30px;
+    font-size: large;
+
 }
 
+
 #about img {
-    width: 80%;
+    width: 60%;
     height: auto; 
     padding: 10px; 
 }
@@ -216,7 +226,7 @@ html{
 
   .card{
       display: flex;
-      width: 30%;
+      width: 25%;
       height: 30vh;
       align-items: center;
       justify-content:center;
@@ -225,11 +235,11 @@ html{
   }
 
   .card img{
-      width: 60%;
+      width: 50%;
       height: 80%;
   }
    .card h2{
-    margin-top: 14px;
+    margin-top: 9px;
    }
 
   @media only screen and (max-width: 600px) {
@@ -239,7 +249,7 @@ html{
     }
 
     .card {
-        width: 80%;
+        width: 50%;
         margin-bottom: 20px; 
     }
 
@@ -249,14 +259,14 @@ html{
     }
 }
 
-  .jk h1{
+  .uk-skills h1{
       text-align: center;
       color: white;
       font-size: 50px;
       
   }
 
-  .jk{
+  .uk-skills{
       background-color: #341e4bf8;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -269,12 +279,12 @@ html{
   }
   
   @media only screen and (max-width: 600px) {
-    .jk {
+    .uk-skills {
         height: auto; 
         padding: 20px; 
     }
 
-    .jk h1 {
+    .uk-skills h1 {
         font-size: 30px; 
     }
 }
@@ -291,7 +301,7 @@ html{
   
     }
     
-    .mj {
+    .uk-project {
       flex: 5;
       max-width: 340px;
       border: 1px solid #c42727;
@@ -301,7 +311,7 @@ html{
       flex-direction: row;
     }
     
-    .mj img {
+    .uk-project img {
       width: 100%;
       height: 300px;
       border-top-left-radius: 16px;
@@ -315,13 +325,13 @@ html{
           padding: 20px; 
       }
   
-      .mj {
+      .uk-project {
           flex: 100%; 
           max-width: 100%; 
           margin: 10px 0; 
       }
   
-      .mj img {
+      .uk-project img {
           height: auto;
           border-radius: 8px; 
       }
@@ -336,9 +346,6 @@ html{
       padding: 20px;
     }
     
-    .card-content h3 {
-      margin-top: 8px;
-    }
     
     .card-content p {
       margin-bottom: 7px;
