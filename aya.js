@@ -1,9 +1,9 @@
-
-    function toggleNav() {
-        var navList = document.querySelector('.navbar ul');
-        if (navList.style.display === "none" || navList.style.display === "") {
-            navList.style.display = "block";
-        } else {
-            navList.style.display = "none";
-        }
+function myFunction() {
+    var x = document.getElementById("all-nav");
+    console.log(x);
+    if (x.className == "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
     }
+  }

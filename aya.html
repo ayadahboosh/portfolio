@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar and Sections Example with Smooth Scrolling</title>
+    <title>AYA Dhboosh</title>
    <link rel="stylesheet" href="aya.css">
    
 </head>
 <body>
    
-<nav class="navbar">
+<nav class="navbar" id="all-nav">
+ 
     <div>
  <img src="lksk-removebg-preview.png "id="logo" alt="">
   </div>
@@ -20,36 +21,56 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#project">project</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li>  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <img src="burgermenu.png" width="32px" height="32px"/>
+        </a></li>
     </ul>
   </div>
 </nav>
+<!-- 
+<div class="topnav" id="myTopnav">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#project">project</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</ul>
+</div> -->
 
 
     <section  id="home">
-      <!-- <img src="bg.jpg" alt="" class="bg" > -->
-      
-          <!-- <div class="word"> </div> -->
+     
         <h2  >Aya Dhboosh</h2>
         <p > Pharmacist || Front-End Developer</p>
      
     </section>
 
     <section id="about">
-        <img src="IMG_3389.jpg" alt="">
+        <img src="IMG_3389.jpg" alt="" >
         <div class="me">
             <h2>About me__________________________</h2>
             <br>
-<br>
-<br>
-<p>
-  Hello, im Aya , 
-  
-</p> 
-            <p>Suspendisse accumsan scelerisque urna, vitae euismod velit dapibus vel. Nullam eleifend ante vel
-                efficitur gravida. In eu rhoncus nisi. Pellentesque auctor enim massa, eget iaculis tortor commodo
-                id.</p>
-            <p>Nulla vitae leo eget mi interdum aliquet sed eget justo. Aliquam vitae libero eu tellus sollicitudin
-                convallis. Praesent ut nisl ac felis consectetur eleifend vel sed mauris. </p>
+           <br>
+          <p>
+             Hello,  I'm Aya Ahmed, 
+          </p> 
+              <p>I Graduatred from baghdad collage of pharmacy in 2021 
+                I have two years of experience in the private sector in 
+                a pivate pharmacy.
+              But now I work in the Government sector 
+          </p><br>
+
+            <p> I Also have certificate from Global English institute baghdad
+               in level 7. 
+              
+              I learned on my own how to use Excel, microsoft,
+            Power Point , word
+            That's why I decided to enter the world of programming , discover and add it to my skills
+            </p>
         </div>
     </section>
 
@@ -59,19 +80,24 @@
         <div class="card">
             <img src="css.png" alt="" >
         <h2>Css</h2>
-        <p>Discover what we offer.</p>
+        <!-- <p>Discover what we offer.</p> -->
         </div>
         <div class="card">
             <img src="html.png" alt="" >
         <h2>Html</h2>
-        <p>Discover what we offer.</p>
+        <!-- <p>Discover what we offer.</p> -->
         </div>
 
         <div class="card">
             <img src="science.png" alt="" >
         <h2>Javascript</h2>
-        <p>Discover what we offer.</p>
+        
         </div>
+        <div class="card">
+          <img src="react.png" alt="" >
+      <h2>React</h2>
+      
+      </div>
     </div>
        
     </section>
@@ -80,26 +106,29 @@
         <h1> Project</h1>
         <div class="container">
             <div class="mj">
-              <img src="IMG_3389.jpg" alt="Image 1">
+              <img src="img_avatar4.png" alt="Image 1">
               <div class="card-content">
                 <h3>Card 1</h3>
-                <p>This is the content of card 1.</p>
+                <p>This is the html,css of cardflip .</p>
+                <button onclick=location.href="http://127.0.0.1:5500/fg.html">code source</button>
               </div>
             </div>
             
             <div class="mj">
-              <img src="IMG_3389.jpg" alt="Image 2">
+              <img src="liabary.jpg" alt="Image 2">
               <div class="card-content">
                 <h3>Card 2</h3>
-                <p>This is the content of card 2.</p>
+                <p>This is Javascript of liabary.</p>
+                <button onclick=location.href="https://github.com/ayadahboosh/portfolio">code source</button>
               </div>
             </div>
             
             <div class="mj">
-              <img src="IMG_3389.jpg" alt="Image 3">
+              <img src="mp3.png" alt="Image 3">
               <div class="card-content">
                 <h3>Card 3</h3>
-                <p>This is the content of card 3.</p>
+                <p>This is the React of Audio.</p>
+                <button onclick=location.href="http://localhost:3000/">code source</button>
               </div>
             </div>
           </div>
@@ -143,9 +172,14 @@
             <li><a href="https://www.instagram.com/aya.dahboosh?igsh=bHU4YXZwb3d3enFp&utm_source=qr"> <img src="instagram.png" alt="" id="cont-img"></a></li>
             <li><a href="https://www.linkedin.com/in/aya-dahboosh-74746b2b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <img src="linkedin.png" alt="" id="cont-img"></a></li>
             <li><a href="https://web.facebook.com/people/%C3%83%C3%BD%C3%A2-Dahboosh/pfbid023whkhBVXBJg2M3Er1qhtnnHzfrBquxBhUQbJN3PApMTmdCXesfaZvSiJEzbWXB1Gl/?mibextid=LQQJ4d"> <img src="facebook.png" alt="" id="cont-img"></a></li>
+            <li><a href="https://github.com/ayadahboosh"> <img src="images.png" alt="" id="cont-img"></a></li>
+            
           </ul>
         </div>
       </footer>
-<script src="aya.js"></script>
+<script src="aya.js">
+
+
+</script>
 </body>
 </html>
