@@ -382,6 +382,7 @@ html{
       background-color: #c56ad3bb;
       padding: 20px;
       padding-left: 40px;
+      padding-right: 10px;
       border-radius: 20px;
       
 
@@ -400,8 +401,8 @@ html{
       }
   
       .touch form {
-          /* padding: 15px; */
-          padding-left: 20px; 
+          padding: 15px;
+          /* padding-left: 15px;  */
           border-radius: 10px; 
 
       }
