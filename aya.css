@@ -372,7 +372,7 @@ html{
 
     .touch {
       max-width: 700px;
-     
+     padding-right: 20px;
       height: 70vh;
       margin-top: 50px;
       
@@ -381,6 +381,7 @@ html{
     .touch form {
       background-color: #c56ad3bb;
       padding: 20px;
+      padding-left: 40px;
       border-radius: 20px;
       
 
@@ -393,14 +394,16 @@ html{
     @media only screen and (max-width: 600px) {
       .touch {
           max-width: 100%; 
-          padding: 15px; 
+          /* padding: 15px;  */
           height: auto; 
           margin-top: 20px; 
       }
   
       .touch form {
-          padding: 15px; 
+          /* padding: 15px; */
+          padding-left: 20px; 
           border-radius: 10px; 
+
       }
   
       .touch h2 {
@@ -444,7 +447,7 @@ html{
       padding: 8px;
       margin-bottom: 20px;
       border: 1px solid #ccc;
-      width: 80%;
+      width: 90%;
       
     }
 
@@ -454,7 +457,7 @@ html{
       }
   
       .contactimg {
-          width: 100%; 
+          width: 90%; 
           padding: 0; 
           margin-bottom: 0px; 
           text-align: center; 
@@ -462,7 +465,7 @@ html{
   
       input,
       textarea {
-          width: 90%; 
+          width: 80%; 
           margin-bottom: 15px; 
       }
   }
@@ -473,7 +476,7 @@ html{
       color: #fff;
       border: none;
       cursor: pointer;
-      width: 80%;
+      width: 90%;
     }
     
     button:hover {
@@ -482,7 +485,7 @@ html{
 
     @media only screen and (max-width: 600px) {
       button {
-          width: 90%; 
+          width: 80%; 
       }
   }
     footer {
